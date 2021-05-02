@@ -6,20 +6,20 @@ const router = express.Router();
 const validate = [
   check('title')
     .isLength({ min: 3, max: 50 })
-    .withMessage('Title should be between 3 and 50 characters.');
+    .withMessage('Title should be between 3 and 50 characters.'),
   check('description')
     .isLength({ min: 10, max: 200 })
-    .withMessage('Description should be between 10 and 200 characters.');
+    .withMessage('Description should be between 10 and 200 characters.'),
   check('address')
     .isLength({ min: 10, max: 100 })
-    .withMessage('Address should be between 10 and 100 characters.');
+    .withMessage('Address should be between 10 and 100 characters.'),
   check('price')
     .isNumeric()
-    .withMessage('Price should be a number.');
+    .withMessage('Price should be a number.'),
   check('yearBuilt')
     .isNumeric()
     .isLength(4)
-    .withMessage('Built year should be written in the format YYYY.');
+    .withMessage('Built year should be written in the format YYYY.'),
 ];
 
 // Create new house data
@@ -76,8 +76,8 @@ router.put('/:id', validate, (req, res) => {
       result.address = req.body.address;
       result.homeType = req.body.homeType;
       result.description = req.body.description;
-      result.priceimage = req.body.priceimage;
-      result.image = req.body.;
+      result.priceimage = req.body.price;
+      result.image = req.body.image;
       result.yearBuilt = req.body.yearBuilt;
 
       return result.save();
