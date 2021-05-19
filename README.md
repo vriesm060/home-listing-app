@@ -7,7 +7,7 @@
 | :---------- | :---------- |
 
 <p float="left">
-  <img src="screenshots/home_listing_app_001.png" alt="Home Listing App Overview" width="300" />
-  <img src="screenshots/home_listing_app_002.png" alt="Home Listing App Add new home" width="300" />
-  <img src="screenshots/home_listing_app_003.png" alt="Home Listing App Detail" width="300" />
+  <img src="screenshots/home_listing_app_001.png" alt="Home Listing App Overview" width="275" />
+  <img src="screenshots/home_listing_app_002.png" alt="Home Listing App Add new home" width="275" />
+  <img src="screenshots/home_listing_app_003.png" alt="Home Listing App Detail" width="275" />
 </p>
