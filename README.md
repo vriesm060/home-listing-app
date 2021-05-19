@@ -6,6 +6,8 @@
 | [Client][1] | [Server][2] |
 | :---------- | :---------- |
 
-![Home Listing App Overview](screenshots/home_listing_app_001.png)
-![Home Listing App Add new home](screenshots/home_listing_app_002.png)
-![Home Listing App Detail](screenshots/home_listing_app_003.png)
+<p float="left">
+  <img src="screenshots/home_listing_app_001.png" alt="Home Listing App Overview" width="300" />
+  <img src="screenshots/home_listing_app_002.png" alt="Home Listing App Add new home" width="300" />
+  <img src="screenshots/home_listing_app_003.png" alt="Home Listing App Detail" width="300" />
+</p>
